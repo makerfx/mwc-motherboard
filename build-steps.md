@@ -31,6 +31,8 @@ If ordering LEDs, get 0805 for ease of soldering
 Voltage reference part - SOT-23-3 size, 2.5v reference - ZTL431BFFTA (Digikey) $0.40
 Level Shifter TXS0104E
 
+Tweezers - mouser AVEN 18072USA
+
 
 
 
