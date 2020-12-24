@@ -16,20 +16,14 @@ Features include:
 * Expansion header for connecting to a daughterboard
 * Support for USB host mode through the Teensy 4.1 USB header
 
-NOTE: This board is currently in development and not all features have been tested. We plan to make these boards available to Magic Wheelchair projects and for other projects. If you are interested in obtaining a PCB or a populated board, or you are thinking about using these design files to order your own PCBs, please [email us](mailto:info@makerfx.org) to learn the current state of board testing and production.
 ___
 ![MWC Motherboard prototype](images/mwc_mobo_1.0.7_brightbikes.jpg)
 MWC Motherboard prototype v1.0.7 being tested in a BrightBikes LED art bike with more than 1600 addressable LEDs
-
-<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/AoEWIwNy1bjEVmdzk5" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
-
 ___
 ## History
 In 2019, [we built the Bumblebee Transformer Magic Wheelchair for Alex](https://makezine.com/2019/02/08/watch-these-makers-transform-a-wheelchair-into-an-interactive-bumblebee-costume/) - that project was completed in just a few weeks, and we used the Teensy 3.6 with the Teensy 3 Audio Shield. We hand soldered protoboards for the circuits including the Teensy components, level shifters and high-current transistor outputs. Alex loved Bumblebee and Magic Wheelchair builders provided very positive feedback on the interactivity of the build. Just two weeks later, we were asked to help provide the electronics for another MWC build in Portland. Again, we created a hand-soldered protoboard. We realized that if we could make this part easier with a plug & play board for interactive MWC builds, we could help the build community significantly.
 
 We've now worked through 7 revisions of the board, including upgrading to the Teensy 4.1 and the Teensy 4 Audio shield. We've added more functionality, and made it easier than every to get started. All our MWC build code is Open Source and available here to get builders up-to-speed quickly.
-
-We are currently developing and testing with our BrightBikes LED art bikes project.
 
 ## Example Uses
 * MakerFX Magic Wheelchair builds (includes prior generations of this circuit before the motherboard was created) [Website](http://www.makerfx.org/magic-wheelchair])
@@ -39,8 +33,8 @@ We are currently developing and testing with our BrightBikes LED art bikes proje
 Note, not all parts are required. For example, if your build does not use high-current outputs, you don't need to populate those parts.
 
 * PCB
-  * We order using the design files here, please [email us](mailto:info@makerfx.org) to learn the current state of board testing and production.
-  * If you want to purchase bare or populated boards, we are planning to make them available at some point in the future. Please [email us](mailto:info@makerfx.org) to learn the current state of board availability.
+  * We order from PCBWay, etc. using the design files here.
+  * If you want to purchase bare or populated boards, we are planning to make them available at some point in the future.
 
 * Teensy 4.1
   * QTY 1
