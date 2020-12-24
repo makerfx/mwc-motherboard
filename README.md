@@ -1,6 +1,6 @@
 # Magic Wheelchair Motherboard
 
-The Magic Wheelchair Motherboard is a printed circuit board that makes it much easier to add interactivity to Magic Wheelchair builds (or other interactive projects). 
+The Magic Wheelchair Motherboard is a printed circuit board that makes it much easier to add interactivity to Magic Wheelchair builds (or other interactive projects).
 
 Features include:
 * Plug-in support for Teensy 4.1 and the Teensy 4 audio audio adaptor
@@ -28,15 +28,51 @@ We've now worked through 7 revisions of the board, including upgrading to the Te
 ## Bill of Materials
 Note, not all parts are required. For example, if your build does not use high-current outputs, you don't need to populate those parts.
 
-* PCB 
-* Teensy 4.1: QTY 1: [PJRC](https://www.pjrc.com/store/teensy41.html)
-* Teensy Audio Adaptor Rev D: QTY 1: [PJRC](https://www.pjrc.com/store/teensy3_audio.html)
-* LM2596 DC-DC Power Supply: QTY 1: [Amazon example](https://www.amazon.com/gp/product/B07VVXF7YX/) Note that footprint is very important, there are several versions of similar boards
-* .91" OLED Display (i2c): QTY 1: [Amazon example](https://www.amazon.com/MELIFE-Display-SSD1306-3-3V-5V-Arduino/dp/B08F1ZBGLN/)
-* 2 pin Plug-in Screw terminal block 5.08mm pitch (right angle) [Amazon example](https://www.amazon.com/gp/product/B07317PFSH/) You can use straight or right angle
-* 3 pin Plug-in Screw Terminal Block 5.08mm pitch (right angle) [Amazon example](https://www.amazon.com/gp/product/B07TC4WHZJ/) You can use straight or right angle
-* Male & Female header for mounting Teensy and Audio Adaptor and other items [Amazon example](https://www.amazon.com/gp/product/B06Y4S6G29/)
-* Settings jumpers [Amazon example](https://www.amazon.com/gp/product/B07Q3CDPXF) We like red as a visual reminder that they are there!
+* PCB
+  * We order from PCBWay, etc. using the design files here.
+  * If you want to purchase bare or populated boards, we are planning to make them available at some point in the future.
+
+* Teensy 4.1
+  * QTY 1
+  * Order from [PJRC](https://www.pjrc.com/store/teensy41.html) to support the creator.
+  * We install header pins, so you can order with or without pins.
+
+* Teensy Audio Adaptor Rev D
+  * QTY 1
+  * Order from [PJRC](https://www.pjrc.com/store/teensy3_audio.html) to support the creator.
+  * REV D is for the Teensy 4 series, make sure you get the correct revision!
+  * We install header pins, so you can order with or without pins.
+  * This part is not required if the project does not have audio (but why not?!)
+
+* LM2596 DC-DC Power Supply
+  * QTY 1
+  * [Amazon example](https://www.amazon.com/gp/product/B07VVXF7YX/)
+  * Note that footprint is very important, there are several versions of similar boards
+  * We typically run these systems off 12v batteries, this part does the regulation down to 5v, then the Teensy regulator provides 3.3v
+  * SET THIS PART TO 5V BEFORE TYING ITS OUTPUTS TO THE PCB!
+
+* .91" OLED Display (i2c)
+  * QTY 1
+  * [Amazon example](https://www.amazon.com/MELIFE-Display-SSD1306-3-3V-5V-Arduino/dp/B08F1ZBGLN/)
+  * This part is optional and can be used for debugging or status displays. They are inexpensive and very helpful
+
+* 2 pin Plug-in Screw terminal block 5.08mm pitch
+  * QTY 8 (QTY 1 for VIN, QTY 5 for optional high-current out, QTY 2 for optional addl 5v and GND out)
+  * [Amazon right angle example](https://www.amazon.com/gp/product/B07317PFSH/)
+  * You can use straight or right angle as your packaging dictates
+
+* 3 pin Plug-in Screw Terminal Block 5.08mm pitch
+  * QTY 4 for LED outputs
+  * [Amazon right angle example](https://www.amazon.com/gp/product/B07TC4WHZJ/)
+  * You can use straight or right angle as your packaging dictates
+
+* Male & Female header for mounting Teensy and Audio Adaptor and other items
+  * QTY (Approx 80 pins female and 90 pins male for base use)
+  * [Amazon set example](https://www.amazon.com/gp/product/B06Y4S6G29/)
+
+* Settings jumpers [Amazon example](https://www.amazon.com/gp/product/B07Q3CDPXF)
+  * QTY 2 (QTY 1 for LED voltage output, QTY 1 for level-shifted GPIO voltage)
+  * We like red as a visual reminder to manage settings!
 * LEDs
   * RED VIN LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
   * Orange 5V LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
@@ -44,5 +80,4 @@ Note, not all parts are required. For example, if your build does not use high-c
 
 
 ## Disclaimer
-This is a community-driven project and only affiliated with Magic Wheelchair as we are part of the builder community. The Magic Wheelchair organization is not responsible for any of this content, the design of the board, or any software. 
- 
+This is a community-driven project and only affiliated with Magic Wheelchair as we are part of the builder community. The Magic Wheelchair organization is not responsible for any of this content, the design of the board, or any software.
