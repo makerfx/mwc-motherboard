@@ -73,10 +73,47 @@ Note, not all parts are required. For example, if your build does not use high-c
 * Settings jumpers [Amazon example](https://www.amazon.com/gp/product/B07Q3CDPXF)
   * QTY 2 (QTY 1 for LED voltage output, QTY 1 for level-shifted GPIO voltage)
   * We like red as a visual reminder to manage settings!
+
 * LEDs
-  * RED VIN LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
-  * Orange 5V LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
-  * Green 3.3V LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0181-007F/)
+  * RED VIN LED SMD 0805
+    * QTY 1
+    * [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
+  * Orange 5V LED SMD 0805
+    * QTY 1
+    * [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
+  * Green 3.3V LED SMD 0805
+    * QTY 1
+    * [Mouser example](https://www.mouser.com/ProductDetail/645-599-0181-007F/)
+  * LED Resistors
+    * ADD PART HERE
+    * QTY 3
+
+* Addressable LED output buffer
+  * SN74LV245ADBR Bus Transceiver [Datasheet](http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lv245a)
+  * QTY 1
+  * [Mouser](https://www.mouser.com/ProductDetail/595-SN74LV245ADBR/)
+  * Technically this is optional, but if you aren't using the LEDs, this is likely not the right board for you!
+
+* High-Current output drivers
+  * TC4427ACOA713 Gate Driver 1.5A Dual [Datasheet](https://www.mouser.com/datasheet/2/268/21423F-63366.pdf)
+  * QTY 3 (can be optionally populated based on number of high current outputs needed)
+  * [Mouser](https://www.mouser.com/ProductDetail/579-TC4427ACOA713/)
+
+
+
+* Battery Monitoring circuit (optional)
+  * RvH
+    * 4.7k resistor
+  * RvL
+    * 1k resistor
+  * VRH
+    * ?? resistor
+  * VCL
+    * ?? capacitor
+  * Vref
+    * ZTL431BFFTA 2.5V reference - [Datasheet](https://www.mouser.com/datasheet/2/115/ZTL431-432-1499165.pdf)
+    * QTY 1
+    * [Mouser](https://www.mouser.com/ProductDetail/621-ZTL431BFFTA/)
 
 
 ## Disclaimer
