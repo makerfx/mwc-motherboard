@@ -122,13 +122,14 @@ Note, not all parts are required. For example, if your build does not use high-c
 
 * Battery Monitoring circuit (optional)
   * RvH
-    * 4.7k resistor
+    * 4.7k SMD 0805 resistor
   * RvL
-    * 1k resistor
+    * 1k SMD 0805 resistor
   * VRH
-    * ?? resistor
+    * 1k SMD 0805 resistor
   * VCL
-    * ?? capacitor
+    * .1uF SMD 0805 capacitor
+    * same as above in "Misc Capacitors
   * Vref
     * ZTL431BFFTA 2.5V reference - [Datasheet](https://www.mouser.com/datasheet/2/115/ZTL431-432-1499165.pdf)
     * QTY 1
