@@ -19,6 +19,13 @@ Features include:
 ___
 ![MWC Motherboard prototype](images/mwc_mobo_1.0.7_brightbikes.jpg)
 MWC Motherboard prototype v1.0.7 being tested in a BrightBikes LED art bike with more than 1600 addressable LEDs
+
+
+![BrightBikes holiday ride](https://github.com/makerfx/brightbikes/raw/main/images/holiday_ride1.gif)
+
+
+![BrightBikes fire demo](https://github.com/makerfx/brightbikes/raw/main/images/fire_demo.gif)
+
 ___
 ## History
 In 2019, [we built the Bumblebee Transformer Magic Wheelchair for Alex](https://makezine.com/2019/02/08/watch-these-makers-transform-a-wheelchair-into-an-interactive-bumblebee-costume/) - that project was completed in just a few weeks, and we used the Teensy 3.6 with the Teensy 3 Audio Shield. We hand soldered protoboards for the circuits including the Teensy components, level shifters and high-current transistor outputs. Alex loved Bumblebee and Magic Wheelchair builders provided very positive feedback on the interactivity of the build. Just two weeks later, we were asked to help provide the electronics for another MWC build in Portland. Again, we created a hand-soldered protoboard. We realized that if we could make this part easier with a plug & play board for interactive MWC builds, we could help the build community significantly.
