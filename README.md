@@ -34,7 +34,10 @@ In 2019, [we built the Bumblebee Transformer Magic Wheelchair for Alex](https://
 We've now worked through 7 revisions of the board, including upgrading to the Teensy 4.1 and the Teensy 4 Audio shield. We've added more functionality, and made it easier than every to get started. All our MWC build code is Open Source and available here to get builders up-to-speed quickly.
 
 ## Example Uses
-* MakerFX Magic Wheelchair builds (includes prior generations of this circuit before the motherboard was created) [Website](http://www.makerfx.org/magic-wheelchair])
+* [Magic Wheelchair builds using this design]((http://www.makerfx.org/magic-wheelchair])) (includes prior generations of this circuit before the motherboard was created)
+  * [Bumblebee Transformer code on GitHub](https://github.com/makerfx/mwc-bumblebee)
+  * [Star Wars Tie Silencer code on GitHub](https://github.com/makerfx/mwc-tie-silencer)
+  * [Guarians of the Galaxy Milano code on GitHub](https://github.com/makerfx/mwc-guardians-milano)
 * BrightBikes - [Facebook](www.facebook.com/brightbikesorl) and [GitHub](https://github.com/makerfx/brightbikes)
 
 ## Bill of Materials
