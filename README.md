@@ -16,9 +16,10 @@ Features include:
 * Expansion header for connecting to a daughterboard
 * Support for USB host mode through the Teensy 4.1 USB header
 
+Note that this board is still in the development and testing phase. If you are interested in obtaining a board for a Magic Wheelchair project, or for another interactive project, [email us](mailto:info@makerfx.org) to learn the current status and availability of boards.
 ___
 ![MWC Motherboard prototype](images/mwc_mobo_1.0.7_brightbikes.jpg)
-MWC Motherboard prototype v1.0.7 being tested in a BrightBikes LED art bike with more than 1600 addressable LEDs
+MWC Motherboard prototype v1.0.7 being tested in a [BrightBikes](https://github.com/makerfx/brightbikes) LED art bike with more than 1600 audio-interactive addressable LEDs
 
 
 ![BrightBikes holiday ride](https://github.com/makerfx/brightbikes/raw/main/images/holiday_ride1.gif)
@@ -40,8 +41,7 @@ We've now worked through 7 revisions of the board, including upgrading to the Te
 Note, not all parts are required. For example, if your build does not use high-current outputs, you don't need to populate those parts.
 
 * PCB
-  * We order from PCBWay, etc. using the design files here.
-  * If you want to purchase bare or populated boards, we are planning to make them available at some point in the future.
+  * If you want to purchase bare or populated boards, we are planning to make them available at some point in the future. Note that this board is still in the development and testing phase. If you are interested in obtaining a board for a Magic Wheelchair project, or for another interactive project, [email us](mailto:info@makerfx.org) to learn the current status and availability of boards.
 
 * Teensy 4.1
   * QTY 1
@@ -99,19 +99,27 @@ Note, not all parts are required. For example, if your build does not use high-c
     * ADD PART HERE
     * QTY 3
 
-* Addressable LED output buffer
+* Addressable LED Output Buffer
   * SN74LV245ADBR Bus Transceiver [Datasheet](http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74lv245a)
   * QTY 1
   * [Mouser](https://www.mouser.com/ProductDetail/595-SN74LV245ADBR/)
   * Technically this is optional, but if you aren't using the LEDs, this is likely not the right board for you!
 
-* High-Current output drivers
+* High-Current Output Drivers
   * TC4427ACOA713 Gate Driver 1.5A Dual [Datasheet](https://www.mouser.com/datasheet/2/268/21423F-63366.pdf)
   * QTY 3 (can be optionally populated based on number of high current outputs needed)
   * [Mouser](https://www.mouser.com/ProductDetail/579-TC4427ACOA713/)
 
+* GPIO Level Shifter
+  * TXS0104EDR BiDirectional Voltage Level Translator [datasheet](http://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftxs0104e)
+  * QTY 1 (optional)
+  * [Mouser](https://www.mouser.com/ProductDetail/595-TXS0104EDR/)
 
-
+* Misc Capacitors
+  * .1uF SMD 0805
+  * QTY 4? (Need to verify)
+  * [Mouser Example](https://www.mouser.com/ProductDetail/581-08055C104K/)
+  
 * Battery Monitoring circuit (optional)
   * RvH
     * 4.7k resistor
