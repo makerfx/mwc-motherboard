@@ -29,18 +29,18 @@ We've now worked through 7 revisions of the board, including upgrading to the Te
 Note, not all parts are required. For example, if your build does not use high-current outputs, you don't need to populate those parts.
 
 * PCB 
-* Teensy 4.1 [PJRC](https://www.pjrc.com/store/teensy41.html)
-* Teensy Audio Adaptor Rev D [PJRC](https://www.pjrc.com/store/teensy3_audio.html)
-* LM2596 DC-DC Power Supply [Amazon example](https://www.amazon.com/gp/product/B07VVXF7YX/) Note that footprint is very important, there are several versions of similar boards
-* .91" OLED Display (i2c) [Amazon example](https://www.amazon.com/MELIFE-Display-SSD1306-3-3V-5V-Arduino/dp/B08F1ZBGLN/)
+* Teensy 4.1: QTY 1: [PJRC](https://www.pjrc.com/store/teensy41.html)
+* Teensy Audio Adaptor Rev D: QTY 1: [PJRC](https://www.pjrc.com/store/teensy3_audio.html)
+* LM2596 DC-DC Power Supply: QTY 1: [Amazon example](https://www.amazon.com/gp/product/B07VVXF7YX/) Note that footprint is very important, there are several versions of similar boards
+* .91" OLED Display (i2c): QTY 1: [Amazon example](https://www.amazon.com/MELIFE-Display-SSD1306-3-3V-5V-Arduino/dp/B08F1ZBGLN/)
 * 2 pin Plug-in Screw terminal block 5.08mm pitch (right angle) [Amazon example](https://www.amazon.com/gp/product/B07317PFSH/) You can use straight or right angle
 * 3 pin Plug-in Screw Terminal Block 5.08mm pitch (right angle) [Amazon example](https://www.amazon.com/gp/product/B07TC4WHZJ/) You can use straight or right angle
 * Male & Female header for mounting Teensy and Audio Adaptor and other items [Amazon example](https://www.amazon.com/gp/product/B06Y4S6G29/)
 * Settings jumpers [Amazon example](https://www.amazon.com/gp/product/B07Q3CDPXF) We like red as a visual reminder that they are there!
 * LEDs
-  * RED VIN LED SMD 0805:  [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
-  * Orange 5V LED SMD 0805:  [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
-  * Green 3.3V LED SMD 0805:  [Mouser example](https://www.mouser.com/ProductDetail/645-599-0181-007F/)
+  * RED VIN LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
+  * Orange 5V LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
+  * Green 3.3V LED SMD 0805: QTY 1: [Mouser example](https://www.mouser.com/ProductDetail/645-599-0181-007F/)
 
 
 ## Disclaimer
