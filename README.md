@@ -119,7 +119,7 @@ Note, not all parts are required. For example, if your build does not use high-c
   * .1uF SMD 0805
   * QTY 4? (Need to verify)
   * [Mouser Example](https://www.mouser.com/ProductDetail/581-08055C104K/)
-  
+
 * Battery Monitoring circuit (optional)
   * RvH
     * 4.7k resistor
@@ -133,6 +133,30 @@ Note, not all parts are required. For example, if your build does not use high-c
     * ZTL431BFFTA 2.5V reference - [Datasheet](https://www.mouser.com/datasheet/2/115/ZTL431-432-1499165.pdf)
     * QTY 1
     * [Mouser](https://www.mouser.com/ProductDetail/621-ZTL431BFFTA/)
+
+* Other Handy Items
+  * USB 5-pin header cable for Teensy 4.1 host mode
+    * QTY 1
+    * This is SUPER handy for adding a remote or other USB accessory
+    * [Amazon example](https://www.amazon.com/Duttek-2-Pack-Motherboard-Adapter-Extender/dp/B06Y5RKMT8)
+  * USB Remote
+    * You can read all the buttons on this remote with the Teensy
+    * It also supports a mouse mode
+    * [Amazon](https://www.amazon.com/gp/product/B01FVUGPE8/)
+  * 1/8" Headphone cable for audio input
+    * I typically find a recycled cable, cut the end off and solder to the Teensy audio adapter input pads
+  * 1/8" Headphone cable for audio output
+    * I typically use a recycled headphone cable
+  * Audio noise filter
+    * Can be very helpful to reduce noise from LEDs in the circuit
+    * (Amazon example)[https://www.amazon.com/dp/B0171PQLB8/]
+  * Fuse block
+    * If you have a LOT of LEDs, you may want to fuse the power circuits
+    * We like the models that have bus terminals for both power AND ground
+    * [Amazon example](https://www.amazon.com/gp/product/B08928WKGR)
+  * 12v battery
+    * We like this 12v LiFePo battery - we get about 2 hours of runtime from the 1600 LED art bikes, but these weigh 1/3 of the SLA equivalent!
+    * Kaster 12.8V 12Ah LiFePO4 battery [eBay](https://www.ebay.com/itm/Kastar-12V-12AH-LifePO4-Battery-for-CATV-System-Robotics-E-Bike-Motorbike/254618882962)
 
 
 ## Disclaimer
