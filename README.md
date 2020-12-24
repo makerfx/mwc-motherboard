@@ -22,8 +22,8 @@ In 2019, [we build the Bumblebee Transformer Magic Wheelchair for Alex](https://
 We've now worked through 7 revisions of the board, including upgrading to the Teensy 4.1 and the Teensy 4 Audio shield. We've added more functionality, and made it easier than every to get started. All our MWC build code is Open Source and available here to get builders up-to-speed quickly.
 
 ## Example Uses
-* MakerFX Magic Wheelchair builds (includes prior generations of this circuit before the motherboard was created) [Website](http://www.makerfx.org/magic-wheelchair]
-* BrightBikes - [Facebook](www.facebook.com/brightbikesorl) and GitHub(https://github.com/makerfx/brightbikes)
+* MakerFX Magic Wheelchair builds (includes prior generations of this circuit before the motherboard was created) [Website](http://www.makerfx.org/magic-wheelchair])
+* BrightBikes - [Facebook](www.facebook.com/brightbikesorl) and [GitHub](https://github.com/makerfx/brightbikes)
 
 
 ## Disclaimer
