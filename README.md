@@ -38,9 +38,9 @@ Note, not all parts are required. For example, if your build does not use high-c
 * Male & Female header for mounting Teensy and Audio Adaptor and other items [Amazon example](https://www.amazon.com/gp/product/B06Y4S6G29/)
 * Settings jumpers [Amazon example](https://www.amazon.com/gp/product/B07Q3CDPXF) We like red as a visual reminder that they are there!
 * LEDs
-  * RED VIN LED SMD 0805 [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
-  * Orange 5V LED SMD 0805 [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
-  * Green 3.3V LED SMD 0805 [Mouser example](https://www.mouser.com/ProductDetail/645-599-0181-007F/)
+  * RED VIN LED SMD 0805:  [Mouser example](https://www.mouser.com/ProductDetail/645-599-0110-007F/)
+  * Orange 5V LED SMD 0805:  [Mouser example](https://www.mouser.com/ProductDetail/645-599-0130-007F/)
+  * Green 3.3V LED SMD 0805:  [Mouser example](https://www.mouser.com/ProductDetail/645-599-0181-007F/)
 
 
 ## Disclaimer
