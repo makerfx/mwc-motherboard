@@ -44,8 +44,13 @@ SPI Connections
 * Uploading Firmware
   * [Guide from TinySine](https://www.tinyosshop.com/how-to-restore-bluetooth-audio-module-default-settings)
 * Changing Settings
-  * Note that you need a settings profile that matches the firmware. For the modules purchased from eBay, I had to start by flashing the tinysine audioB firmware, then reading / writing settings
+  * Note that you need a settings profile that matches the firmware. For the modules purchased from eBay, I had to start by flashing the TinySine audioB firmware, then reading / writing settings
+  * Changes
+    * Bluetooth name
+    * I2S Slave
+    * 44.1kHz to match Teensy
+  * There are a number of other cool settings including beeps and sounds (.wavs) when you have connected / disconnected, etc. but I've not experimented that far...
 
 * Connecting to Teensy
   * THE CSRA64215 has 1.8V outputs, LEVEL SHIFTER IS REQUIRED!
-  * I2S connections ![CSRA64215 Breakout I2S](images/csra64215_breakout_i2s.png)
+  * I2S connections (from the guide linked above until we make specific Teensy diagrams) ![CSRA64215 Breakout I2S](images/csra64215_breakout_i2s.png)
