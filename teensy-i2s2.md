@@ -47,7 +47,7 @@ SPI Connections
   * Note that you need a settings profile that matches the firmware. For the modules purchased from eBay, I had to start by flashing the TinySine audioB firmware, then reading / writing settings
   * Changes
     * Bluetooth name
-     ![CSRA Config tool screenshot](images\csra_config_tool_bluetooth_name.png)
+     ![CSRA Config tool screenshot](images/csra_config_tool_bluetooth_name.png)
     * I2S Slave
     * 44.1kHz to match Teensy
     ![CSRA Config tool screenshot](images/csra_config_tool_i2s_settings.png)
