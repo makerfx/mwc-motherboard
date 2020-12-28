@@ -35,7 +35,7 @@ Ideally, we'd like to take a Bluetooth audio module such as the CSR A64215 [Data
 ![CSRA64215 Breakout PCB front](/images/CSRA64215/csra64215_breakout_front.jpg)
 ![CSRA64215 Breakout PCB back](/images/CSRA64215/csra64215_breakout_back.jpg)
 
-* [This guide](https://suredsp.ratz-it.de/index.php?title=CSRA64215) (in German, but translates well) has great pictures of this module and connections for SPI programming and I2S
+* [This guide](https://translate.google.com/translate?sl=auto&tl=en&u=https://suredsp.ratz-it.de/index.php?title%3DCSRA64215) (in German, but translates well) has great pictures of this module and connections for SPI programming and I2S
 
 
 * I use the [CSR USB SPI programmer](https://www.tinyosshop.com/index.php?route=product/product&product_id=876) purchased from TinySine to update the module
