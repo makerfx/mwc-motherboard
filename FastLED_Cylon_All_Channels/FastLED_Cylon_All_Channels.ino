@@ -44,10 +44,10 @@ CRGB leds4[NUM_LEDS4];
 void setup() {
 	Serial.begin(57600);
 	Serial.println("resetting");
-	LEDS.addLeds<WS2812SERIAL,8 ,RGB>(leds1,NUM_LEDS1);
-  LEDS.addLeds<WS2812SERIAL,26,RGB>(leds2,NUM_LEDS2);
-  LEDS.addLeds<WS2812SERIAL,32,RGB>(leds3,NUM_LEDS3);
-  LEDS.addLeds<WS2812SERIAL,33,RGB>(leds4,NUM_LEDS4);
+	LEDS.addLeds<WS2812SERIAL,14,RGB>(leds1,NUM_LEDS1);
+  LEDS.addLeds<WS2812SERIAL,17,RGB>(leds2,NUM_LEDS2);
+  LEDS.addLeds<WS2812SERIAL,24,RGB>(leds3,NUM_LEDS3);
+  LEDS.addLeds<WS2812SERIAL,29,RGB>(leds4,NUM_LEDS4);
   
 	LEDS.setBrightness(84);
   Serial.begin(115200);
