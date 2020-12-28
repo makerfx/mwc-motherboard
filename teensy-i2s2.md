@@ -32,8 +32,8 @@ Ideally, we'd like to take a Bluetooth audio module such as the CSR A64215 [Data
 
 * [CSRA64215 Datasheet](https://www.tinyosshop.com/datasheet)
 * I purchased a common breakout on eBay
-![CSRA64215 Breakout PCB front](images/CSRA64215/csra64215_breakout_front.jpg)
-![CSRA64215 Breakout PCB back](images/CSRA64215/csra64215_breakout_back.jpg)
+![CSRA64215 Breakout PCB front](/images/CSRA64215/csra64215_breakout_front.jpg)
+![CSRA64215 Breakout PCB back](/images/CSRA64215/csra64215_breakout_back.jpg)
 
 * [This guide](https://suredsp.ratz-it.de/index.php?title=CSRA64215) (in German, but translates well) has great pictures of this module and connections for SPI programming and I2S
 
